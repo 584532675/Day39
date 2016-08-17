@@ -39,12 +39,7 @@ public class MainActivity extends AppCompatActivity {
         };
         //注册监听
         manager.registerListener(listener,sensor,SensorManager.SENSOR_DELAY_GAME);
-
-
-
     }
-
-
     //取消监听
     @Override
     protected void onStop() {
